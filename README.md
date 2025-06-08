@@ -1,6 +1,7 @@
 # FaultSeg-fault-detection
 
 This project aims to detect train wheel defects with FaultSeg dataset and YOLOv11.
+
 Dataset: https://universe.roboflow.com/zakir-shaikh/wheel-defect-detecion-faultseg
 
 - Model: YOLOv11 (Ultralytics)
