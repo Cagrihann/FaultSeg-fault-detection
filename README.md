@@ -1,14 +1,23 @@
 # FaultSeg-fault-detection
-Bu proje, FaultSeg veri seti ile tren tekerleği kusurlarını YOLOv11 kullanarak tespit etmektedir.
-Veri seti: https://universe.roboflow.com/zakir-shaikh/wheel-defect-detecion-faultseg
 
-##  Kullanılan Yöntem
+This project aims to detect train wheel defects with FaultSeg dataset and YOLOv11.
+Dataset: https://universe.roboflow.com/zakir-shaikh/wheel-defect-detecion-faultseg
+
 - Model: YOLOv11 (Ultralytics)
-- Eğitim: Roboflow'dan indirilen etiketli görseller kullanılarak gerçekleştirilmiştir.
-- Sınıflar: Wheel, Shelling, Cracks-Scratches, Discoloration
+- Training data: Labeled images downloaded from Roboflow
+- Classes: Wheel, Shelling, Cracks-Scratches, Discoloration
 
-##  Örnek Tahmin Sonucu
-Aşağıda modelin test sırasında ürettiği örnek bir tahmin görseli yer almaktadır:
+## Example Prediction Output
 
+Below is a sample prediction result obtained during testing:
 
 ![test](https://github.com/user-attachments/assets/9dc30af0-82c3-406f-a9ee-0c6412969a7e)
+
+## Library Versions Used
+
+- Python: 3.10  
+- Ultralytics (YOLOv11): 8.3.151  
+- PyTorch: 2.7.1+cu118  
+- OpenCV: 4.8.1  
+- NumPy: 1.24.4  
+- pandas: 2.3.0
