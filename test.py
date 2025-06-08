@@ -27,6 +27,7 @@ def test_visualize():
 
 trained_model = YOLO("runs/detect/train/weights/best.pt")
 
+
 if __name__ == "__main__":         
     metrics = trained_model.val()
     print(f"\n\n\n{metrics}")
