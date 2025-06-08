@@ -21,4 +21,4 @@ Below is a sample prediction result obtained during testing:
 - PyTorch: 2.7.1+cu118  
 - OpenCV: 4.8.1  
 - NumPy: 1.24.4  
-- pandas: 2.3.0
+- Pandas: 2.3.0
